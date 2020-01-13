@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": ">=50.9"
-  },
   "scripts": {
     "start": "env-cmd -f ./config/dev.env node src/chat.js",
     "dev": "env-cmd -f ./config/dev.env nodemon src/chat.js"
